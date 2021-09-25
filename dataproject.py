@@ -53,10 +53,6 @@ if st.checkbox('Show company info in table format'):
 #fig.show()
 #fig = px.line(printable_data, x="Date", y="Close", title='Line plot of closing')
 #fig.show()    
-from backtesting import Backtest, Strategy
-from backtesting.lib import crossover
-
-from backtesting.test import SMA
 """ # sma backtesting
 ## deployed cash 1,00,000
 
