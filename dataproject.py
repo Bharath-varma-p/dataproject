@@ -78,7 +78,7 @@ bt = Backtest(data_hist, SmaCross,
               exclusive_orders=True)
 
 output = pd.DataFrame(bt.run())
-bt.plot()
+#bt.plot()
 st.write(output)
 
 
