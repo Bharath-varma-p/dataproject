@@ -77,8 +77,8 @@ bt = Backtest(data_hist, SmaCross,
               cash=100000, commission=0.001,
               exclusive_orders=True)
 
-output = pd.DataFrame(bt.run())
+#output = pd.DataFrame(bt.run())
 #bt.plot()
-st.write(output)
+#st.write(output)
 
 
