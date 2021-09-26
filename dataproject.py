@@ -58,8 +58,8 @@ if st.checkbox('Show company info in table format'):
 
 """ 
 class SmaCross(Strategy):
-    n1 = 10
-    n2 = 50
+    n1 = 20
+    n2 = 200
 
     def init(self):
         close = self.data.Close
