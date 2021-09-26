@@ -81,11 +81,15 @@ output = pd.DataFrame(bt.run())
 #bt.plot()
 output = output.reset_index()
 #st.write(output)
-st.write(output['index'][4]+'=',output[0][4]) #final amount
-st.write(output['index'][17]+'=',output[0][17]) #no.of trades
-st.write(output['index'][18]+'=',output[0][18]) #win rate[%]
-st.write(output['index'][19]+'=',output[0][19])  #best trade
-st.write(output['index'][20]+'=',output[0][20])   # worest trade
-st.write(output['index'][13]+'=',output[0][13])
+st.write(output['index'][4]+'=')
+d = output[0][4]
+st.title(d)
+ #final amount
+st.write(output['index'][4]+' =',output[0][4]) #final amount
+st.write(output['index'][17]+' =',output[0][17]) #no.of trades
+st.write(output['index'][18]+' =',output[0][18]) #win rate[%]
+st.write(output['index'][19]+' =',output[0][19])  #best trade
+st.write(output['index'][20]+' =',output[0][20])   # worest trade
+st.write(output['index'][13]+' =',output[0][13])
 
 
