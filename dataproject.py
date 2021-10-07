@@ -10,7 +10,16 @@ from backtesting.test import SMA
 import time
 import plotly.express as px
 import plotly.graph_objects as go
+from PIL import Image
 
+image = Image.open('./1.png')
+
+st.title('Our backtesting portal :sunglasses:')
+
+#st.selectbox('Select the stock',)
+size = (200, 200)
+image = image.resize(size)
+st.image(image, caption='Always remember that backtesting results and forward testing results do varies')
 
 st.title('Our backtesting portal :sunglasses:')
 
