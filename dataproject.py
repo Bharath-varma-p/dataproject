@@ -12,6 +12,13 @@ import plotly.express as px
 import plotly.graph_objects as go
 from PIL import Image
 
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)   #removed hamburger menu
+
 image = Image.open('./1.png')
 
 st.title('Our backtesting portal :sunglasses:')
