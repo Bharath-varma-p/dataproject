@@ -107,5 +107,9 @@ st.write(output['index'][18]+' =',output[0][18]) #win rate[%]
 st.write(output['index'][19]+' =',output[0][19])  #best trade
 st.write(output['index'][20]+' =',output[0][20])   # worest trade
 st.write(output['index'][13]+' =',output[0][13])
-
+st.markdown("## Party time! we have got results")
+st.write("Yay! You're done backtesting your favorite stock. Click below to celebrate.")
+btn = st.button("Celebrate!")
+if btn:
+    st.balloons()
 
